@@ -27,6 +27,6 @@ Bu yazılım basit bir makro kaydedici değildir; içerisinde birçok çevresel 
 ## 💻 Geliştiriciler İçin
 Eğer kodu kendi ortamınızda derlemek isterseniz:
 1. Repoyu klonlayın.
-2. Gerekli kütüphaneleri kurun: `pip install pyautogui pillow`
-3. Kodu `.exe` formatına dönüştürmek için:
+2. Gerekli kütüphaneleri kurun: `pip install pyautogui pillow opencv-python pyinstaller`
+3. Kodu `.exe` formatına dönüştürmek için terminale şu komutu yazın:
    `pyinstaller --onefile --noconsole --uac-admin --icon=sw_simgesi.ico SW_Baslatici.py`
